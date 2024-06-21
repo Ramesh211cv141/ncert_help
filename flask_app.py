@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Initialize OpenAI with your API key
 openai.api_key = 'sk-proj-9H9nTXBQRd34IgObRulRT3BlbkFJTAwANLjer4grqfv6fgr0'
-assistant_id = 'asst_d0EL2uqJr4G7t3ig2fLRrOxl'  # Replace with your actual assistant ID
+assistant_id = 'asst_d0EL2uqJr4G7t3ig2fLRrOxl' 
 
 def get_openai_response(prompt, assistant_id):
     messages = [
