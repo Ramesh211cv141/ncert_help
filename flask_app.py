@@ -40,4 +40,6 @@ def rephrase_question():
     return jsonify({"rephrased_question": rephrased_question})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=80)
+
+
