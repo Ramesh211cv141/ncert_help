@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 import openai
-
+import os
 app = Flask(__name__)
 
 # Initialize OpenAI API key
