@@ -4,7 +4,7 @@ import os
 app = Flask(__name__)
 
 # Initialize OpenAI API key
-openai.api_key = 'sk-proj-g5VUjHb1O2UWKxZuanNqT3BlbkFJeLfS7PdRc9WLsDZCkbVD'
+openai.api_key = 'sk-proj-cqPXco1rlAzh7IyqdRHCT3BlbkFJDYpzQ8q7NZBVWkOaolS5'
 assistant_id = 'asst_d0EL2uqJr4G7t3ig2fLRrOxl' 
 
 def get_openai_response(prompt, assistant_id):
